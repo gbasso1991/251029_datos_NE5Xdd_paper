@@ -496,8 +496,8 @@ axin.set_xlabel('t (s)')
 axin.set_ylabel('dT/dt (ºC/s)')
 axin.legend(ncol=3)
 axin.grid()
-plt.suptitle(f'{f_idc[0]} - {f_idc[1]} - g/L')
-#plt.savefig('tau_SAR_NE_dd.png', dpi=300, facecolor='w')
+plt.suptitle('135 kHz - 38 kA/m - 7.4 g/L')
+plt.savefig('tau_SAR_NE_dd.png', dpi=300, facecolor='w')
 
 
 
